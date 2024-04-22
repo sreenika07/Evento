@@ -1,0 +1,31 @@
+[2024/04/22 1713809509]:Username and password  validate successfully User_IP-35.150.38.215 User_Id-12 Email-venugopalreddy.annam@gmail.com
+[2024/04/22 1713809509]:MO initiate 2nd factor User_IP-35.150.38.215 User_Id-12 Email-venugopalreddy.annam@gmail.com
+[2024/04/22 1713809530]:Username and password  validate successfully User_IP-35.150.38.215 User_Id-12 Email-venugopalreddy.annam@gmail.com
+[2024/04/22 1713809530]:MO initiate 2nd factor User_IP-35.150.38.215 User_Id-12 Email-venugopalreddy.annam@gmail.com
+[2024/04/22 1713810335]:Invalid username and password. User_IP-35.150.38.215
+[2024/04/22 1713810354]:Username and password  validate successfully User_IP-35.150.38.215 User_Id-13 Email-sdarsi1104@gmail.com
+[2024/04/22 1713810354]:MO initiate 2nd factor User_IP-35.150.38.215 User_Id-13 Email-sdarsi1104@gmail.com
+[2024/04/22 1713810506]:Username and password  validate successfully User_IP-35.150.38.215 User_Id-11 Email-sumanabottcha@gmail.com
+[2024/04/22 1713810506]:MO initiate 2nd factor User_IP-35.150.38.215 User_Id-11 Email-sumanabottcha@gmail.com
+[2024/04/22 1713810655]:Username and password  validate successfully User_IP-35.150.38.215 User_Id-14 Email-tonych2000@gmail.com
+[2024/04/22 1713810655]:MO initiate 2nd factor User_IP-35.150.38.215 User_Id-14 Email-tonych2000@gmail.com
+[2024/04/22 1713810790]:Username and password  validate successfully User_IP-35.150.38.215 User_Id-14 Email-tonych2000@gmail.com
+[2024/04/22 1713810790]:MO initiate 2nd factor User_IP-35.150.38.215 User_Id-14 Email-tonych2000@gmail.com
+[2024/04/22 1713810800]:Transaction Id- User_IP-35.150.38.215 User_Id-14
+[2024/04/22 1713810800]:Logged in successfully User_IP-35.150.38.215 User_Id-14
+[2024/04/22 1713810930]:Username and password  validate successfully User_IP-35.150.38.215 User_Id-15 Email-Kalyanraju21@gmail.com
+[2024/04/22 1713810930]:MO initiate 2nd factor User_IP-35.150.38.215 User_Id-15 Email-Kalyanraju21@gmail.com
+[2024/04/22 1713810942]:Push notification has sent successfully for OUT OF BAND EMAIL User_IP- User_Id-15 Email-Kalyanraju21@gmail.com
+[2024/04/22 1713810942]:Push notification has sent successfully for OUT OF BAND EMAIL Email-Kalyanraju21@gmail.com customer key: 342169 API key: QvsLEC37Vhla3eyRC7TGf7Vdl1S6qu1Y
+[2024/04/22 1713810943]:Push notification has sent successfully for OUT OF BAND EMAIL User_IP-35.150.38.215 User_Id-15 Email-Kalyanraju21@gmail.com
+[2024/04/22 1713810943]:Waiting for push notification validation User_IP-35.150.38.215 User_Id-15
+[2024/04/22 1713811102]:Username and password  validate successfully User_IP-35.150.38.215 User_Id-16 Email-hemanth77@yahoo.com
+[2024/04/22 1713811102]:MO initiate 2nd factor User_IP-35.150.38.215 User_Id-16 Email-hemanth77@yahoo.com
+[2024/04/22 1713811213]:Username and password  validate successfully User_IP-35.150.38.215 User_Id-17 Email-bhavana123@gmail.com
+[2024/04/22 1713811213]:MO initiate 2nd factor User_IP-35.150.38.215 User_Id-17 Email-bhavana123@gmail.com
+[2024/04/22 1713812835]:Username and password  validate successfully User_IP-35.150.38.215 User_Id-18 Email-chikki28@gmail.com
+[2024/04/22 1713812835]:MO initiate 2nd factor User_IP-35.150.38.215 User_Id-18 Email-chikki28@gmail.com
+[2024/04/22 1713816749]:Username and password  validate successfully User_IP-35.150.38.215 User_Id-20 Email-raju0707@gmail.com
+[2024/04/22 1713816749]:MO initiate 2nd factor User_IP-35.150.38.215 User_Id-20 Email-raju0707@gmail.com
+[2024/04/22 1713817147]:Username and password  validate successfully User_IP-35.150.38.215 User_Id-21 Email-akshi07@gmail.com
+[2024/04/22 1713817147]:MO initiate 2nd factor User_IP-35.150.38.215 User_Id-21 Email-akshi07@gmail.com

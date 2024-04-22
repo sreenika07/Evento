@@ -1,0 +1,12 @@
+2024-04-22T05:05:18+00:00 INFO Start-Cartflows_Frontend::redirect_to_thankyou_page
+2024-04-22T05:05:18+00:00 INFO Only for thank you page
+2024-04-22T05:05:18+00:00 INFO End-Cartflows_Frontend::redirect_to_thankyou_page
+2024-04-22T14:05:07+00:00 INFO Start-Cartflows_Admin_Report_Emails::send_weekly_report_email
+2024-04-22T14:05:07+00:00 INFO Send weekly emails to darsisuji1999@gmail.com
+2024-04-22T14:05:07+00:00 INFO Total Revenue: <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>0.00</bdi></span>
+2024-04-22T19:58:12+00:00 INFO Start-Cartflows_Frontend::redirect_to_thankyou_page
+2024-04-22T19:58:12+00:00 INFO Only for thank you page
+2024-04-22T19:58:12+00:00 INFO End-Cartflows_Frontend::redirect_to_thankyou_page
+2024-04-22T20:23:11+00:00 INFO Start-Cartflows_Frontend::redirect_to_thankyou_page
+2024-04-22T20:23:11+00:00 INFO Only for thank you page
+2024-04-22T20:23:11+00:00 INFO End-Cartflows_Frontend::redirect_to_thankyou_page

@@ -1,0 +1,1 @@
+<a href="<?php echo esc_url(wc_get_checkout_url()); ?>" class="button gd-checkout-open gd-checkout-button">Checkout</a>

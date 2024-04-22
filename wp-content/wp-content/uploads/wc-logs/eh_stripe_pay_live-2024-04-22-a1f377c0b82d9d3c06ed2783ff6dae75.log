@@ -1,0 +1,616 @@
+2024-04-22T19:56:21+00:00 DEBUG <------------------- WebToffee Stripe Payment ( Evento - WebHook event ) ------------------->
+stdClass Object
+(
+    [id] => evt_1P8SyOH5sQ9h1aRdM9m8TyD7
+    [object] => event
+    [api_version] => 2024-04-10
+    [created] => 1713815780
+    [data] => Array
+        (
+            [object] => Array
+                (
+                    [id] => cus_PyPolSQQNFzq0H
+                    [object] => customer
+                    [address] => Array
+                        (
+                            [city] => Irving
+                            [country] => US
+                            [line1] => 9827 Valley Ranch Pkwy W
+                            [line2] => Apt 2175
+                            [postal_code] => 75063
+                            [state] => TX
+                        )
+
+                    [balance] => 0
+                    [created] => 1713815780
+                    [currency] => 
+                    [default_source] => 
+                    [delinquent] => 
+                    [description] => Customer for Order #4716
+                    [discount] => 
+                    [email] => darsisuji1999@gmail.com
+                    [invoice_prefix] => 3B13C048
+                    [invoice_settings] => Array
+                        (
+                            [custom_fields] => 
+                            [default_payment_method] => 
+                            [footer] => 
+                            [rendering_options] => 
+                        )
+
+                    [livemode] => 1
+                    [metadata] => Array
+                        (
+                        )
+
+                    [name] => Sreenika Reddy Annam
+                    [next_invoice_sequence] => 1
+                    [phone] => 
+                    [preferred_locales] => Array
+                        (
+                        )
+
+                    [shipping] => 
+                    [tax_exempt] => none
+                    [test_clock] => 
+                )
+
+        )
+
+    [livemode] => 1
+    [pending_webhooks] => 1
+    [request] => Array
+        (
+            [id] => req_rQ7ygZ02bJINgH
+            [idempotency_key] => 8fa96934-78c3-4488-aeee-cec8f5cdc219
+        )
+
+    [type] => customer.created
+)
+2024-04-22T19:58:05+00:00 DEBUG <------------------- WebToffee Stripe Payment ( Evento - WebHook event ) ------------------->
+stdClass Object
+(
+    [id] => evt_3P8T01H5sQ9h1aRd06WtVdp9
+    [object] => event
+    [api_version] => 2024-04-10
+    [created] => 1713815884
+    [data] => Array
+        (
+            [object] => Array
+                (
+                    [id] => pi_3P8T01H5sQ9h1aRd0UoCfhfx
+                    [object] => payment_intent
+                    [amount] => 50
+                    [amount_capturable] => 0
+                    [amount_details] => Array
+                        (
+                            [tip] => Array
+                                (
+                                )
+
+                        )
+
+                    [amount_received] => 50
+                    [application] => 
+                    [application_fee_amount] => 
+                    [automatic_payment_methods] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [client_secret] => pi_3P8T01H5sQ9h1aRd0UoCfhfx_secret_YwlnPuPIzQ9ltOI5BvbnPA4Ja
+                    [confirmation_method] => automatic
+                    [created] => 1713815881
+                    [currency] => usd
+                    [customer] => cus_PyPolSQQNFzq0H
+                    [description] => Evento Order #4716
+                    [invoice] => 
+                    [last_payment_error] => 
+                    [latest_charge] => ch_3P8T01H5sQ9h1aRd03jkAux8
+                    [livemode] => 1
+                    [metadata] => Array
+                        (
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => pm_1P8T00H5sQ9h1aRdtIBlvhqV
+                    [payment_method_configuration_details] => 
+                    [payment_method_options] => Array
+                        (
+                            [card] => Array
+                                (
+                                    [installments] => 
+                                    [mandate_options] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [processing] => 
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => 
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => succeeded
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+        )
+
+    [livemode] => 1
+    [pending_webhooks] => 1
+    [request] => Array
+        (
+            [id] => req_SiPqk7gv3RKwau
+            [idempotency_key] => 594575d1-e9e6-4cc0-9fe5-a0764579c80c
+        )
+
+    [type] => payment_intent.succeeded
+)
+2024-04-22T19:58:05+00:00 DEBUG <------------------- WebToffee Stripe Payment ( Evento - WebHook event ) ------------------->
+stdClass Object
+(
+    [id] => evt_3P8T01H5sQ9h1aRd0S3plPJa
+    [object] => event
+    [api_version] => 2024-04-10
+    [created] => 1713815883
+    [data] => Array
+        (
+            [object] => Array
+                (
+                    [id] => ch_3P8T01H5sQ9h1aRd03jkAux8
+                    [object] => charge
+                    [amount] => 50
+                    [amount_captured] => 50
+                    [amount_refunded] => 0
+                    [application] => 
+                    [application_fee] => 
+                    [application_fee_amount] => 
+                    [balance_transaction] => txn_3P8T01H5sQ9h1aRd0uVkZts9
+                    [billing_details] => Array
+                        (
+                            [address] => Array
+                                (
+                                    [city] => 
+                                    [country] => US
+                                    [line1] => 
+                                    [line2] => 
+                                    [postal_code] => 75063
+                                    [state] => 
+                                )
+
+                            [email] => darsisuji1999@gmail.com
+                            [name] => SREENIKA REDDY ANNAM
+                            [phone] => 
+                        )
+
+                    [calculated_statement_descriptor] => EVENTO
+                    [captured] => 1
+                    [created] => 1713815882
+                    [currency] => usd
+                    [customer] => cus_PyPolSQQNFzq0H
+                    [description] => Evento Order #4716
+                    [destination] => 
+                    [dispute] => 
+                    [disputed] => 
+                    [failure_balance_transaction] => 
+                    [failure_code] => 
+                    [failure_message] => 
+                    [fraud_details] => Array
+                        (
+                        )
+
+                    [invoice] => 
+                    [livemode] => 1
+                    [metadata] => Array
+                        (
+                        )
+
+                    [on_behalf_of] => 
+                    [order] => 
+                    [outcome] => Array
+                        (
+                            [network_status] => approved_by_network
+                            [reason] => 
+                            [risk_level] => normal
+                            [seller_message] => Payment complete.
+                            [type] => authorized
+                        )
+
+                    [paid] => 1
+                    [payment_intent] => pi_3P8T01H5sQ9h1aRd0UoCfhfx
+                    [payment_method] => pm_1P8T00H5sQ9h1aRdtIBlvhqV
+                    [payment_method_details] => Array
+                        (
+                            [card] => Array
+                                (
+                                    [amount_authorized] => 50
+                                    [brand] => visa
+                                    [checks] => Array
+                                        (
+                                            [address_line1_check] => 
+                                            [address_postal_code_check] => pass
+                                            [cvc_check] => pass
+                                        )
+
+                                    [country] => US
+                                    [exp_month] => 5
+                                    [exp_year] => 2029
+                                    [extended_authorization] => Array
+                                        (
+                                            [status] => disabled
+                                        )
+
+                                    [fingerprint] => icmuOQx5yocV7BfZ
+                                    [funding] => debit
+                                    [incremental_authorization] => Array
+                                        (
+                                            [status] => unavailable
+                                        )
+
+                                    [installments] => 
+                                    [last4] => 5384
+                                    [mandate] => 
+                                    [multicapture] => Array
+                                        (
+                                            [status] => unavailable
+                                        )
+
+                                    [network] => visa
+                                    [network_token] => Array
+                                        (
+                                            [used] => 
+                                        )
+
+                                    [overcapture] => Array
+                                        (
+                                            [maximum_amount_capturable] => 50
+                                            [status] => unavailable
+                                        )
+
+                                    [three_d_secure] => 
+                                    [wallet] => 
+                                )
+
+                            [type] => card
+                        )
+
+                    [radar_options] => Array
+                        (
+                        )
+
+                    [receipt_email] => 
+                    [receipt_number] => 
+                    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQN1BLT0g1c1E5aDFhUmQozIKbsQYyBi-HgH-fojosFg3PkFAgm09Mn-tHQ-lHY0A2bZ5yPEZBaf4C-axF1iMpRkxh2t_bVgmnZTA
+                    [refunded] => 
+                    [review] => 
+                    [shipping] => 
+                    [source] => 
+                    [source_transfer] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => succeeded
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+        )
+
+    [livemode] => 1
+    [pending_webhooks] => 1
+    [request] => Array
+        (
+            [id] => req_SiPqk7gv3RKwau
+            [idempotency_key] => 594575d1-e9e6-4cc0-9fe5-a0764579c80c
+        )
+
+    [type] => charge.succeeded
+)
+2024-04-22T19:58:05+00:00 DEBUG <------------------- WebToffee Stripe Payment ( Evento - WebHook event ) ------------------->
+stdClass Object
+(
+    [id] => evt_3P8T01H5sQ9h1aRd0n1j13Oj
+    [object] => event
+    [api_version] => 2024-04-10
+    [created] => 1713815881
+    [data] => Array
+        (
+            [object] => Array
+                (
+                    [id] => pi_3P8T01H5sQ9h1aRd0UoCfhfx
+                    [object] => payment_intent
+                    [amount] => 50
+                    [amount_capturable] => 0
+                    [amount_details] => Array
+                        (
+                            [tip] => Array
+                                (
+                                )
+
+                        )
+
+                    [amount_received] => 0
+                    [application] => 
+                    [application_fee_amount] => 
+                    [automatic_payment_methods] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [client_secret] => pi_3P8T01H5sQ9h1aRd0UoCfhfx_secret_YwlnPuPIzQ9ltOI5BvbnPA4Ja
+                    [confirmation_method] => automatic
+                    [created] => 1713815881
+                    [currency] => usd
+                    [customer] => cus_PyPolSQQNFzq0H
+                    [description] => Evento Order #4716
+                    [invoice] => 
+                    [last_payment_error] => 
+                    [latest_charge] => 
+                    [livemode] => 1
+                    [metadata] => Array
+                        (
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_configuration_details] => 
+                    [payment_method_options] => Array
+                        (
+                            [card] => Array
+                                (
+                                    [installments] => 
+                                    [mandate_options] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [processing] => 
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => 
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+        )
+
+    [livemode] => 1
+    [pending_webhooks] => 1
+    [request] => Array
+        (
+            [id] => req_SiPqk7gv3RKwau
+            [idempotency_key] => 594575d1-e9e6-4cc0-9fe5-a0764579c80c
+        )
+
+    [type] => payment_intent.created
+)
+2024-04-22T19:58:05+00:00 DEBUG <------------------- WebToffee Stripe Payment ( Evento - WebHook event ) ------------------->
+stdClass Object
+(
+    [id] => evt_1P8T04H5sQ9h1aRdJbdyT2Lz
+    [object] => event
+    [api_version] => 2024-04-10
+    [created] => 1713815884
+    [data] => Array
+        (
+            [object] => Array
+                (
+                    [id] => cs_live_a11StqdlMo91sFUTO7kUUx1gcpULOzBCcluGyYg1eCvp3MsyodRVCqUU2A
+                    [object] => checkout.session
+                    [after_expiration] => 
+                    [allow_promotion_codes] => 
+                    [amount_subtotal] => 50
+                    [amount_total] => 50
+                    [automatic_tax] => Array
+                        (
+                            [enabled] => 
+                            [liability] => 
+                            [status] => 
+                        )
+
+                    [billing_address_collection] => 
+                    [cancel_url] => https://zhm.57c.myftpupload.com/?wc-ajax=eh_spg_stripe_cancel_order&_wpnonce=35e874b123&order_id=NDcxNg==
+                    [client_reference_id] => 
+                    [client_secret] => 
+                    [consent] => 
+                    [consent_collection] => 
+                    [created] => 1713815781
+                    [currency] => usd
+                    [currency_conversion] => 
+                    [custom_fields] => Array
+                        (
+                        )
+
+                    [custom_text] => Array
+                        (
+                            [after_submit] => 
+                            [shipping_address] => 
+                            [submit] => 
+                            [terms_of_service_acceptance] => 
+                        )
+
+                    [customer] => cus_PyPolSQQNFzq0H
+                    [customer_creation] => 
+                    [customer_details] => Array
+                        (
+                            [address] => Array
+                                (
+                                    [city] => Irving
+                                    [country] => US
+                                    [line1] => 9827 Valley Ranch Pkwy W
+                                    [line2] => Apt 2175
+                                    [postal_code] => 75063
+                                    [state] => TX
+                                )
+
+                            [email] => darsisuji1999@gmail.com
+                            [name] => Sreenika Reddy Annam
+                            [phone] => 
+                            [tax_exempt] => none
+                            [tax_ids] => Array
+                                (
+                                )
+
+                        )
+
+                    [customer_email] => 
+                    [expires_at] => 1713819380
+                    [invoice] => 
+                    [invoice_creation] => Array
+                        (
+                            [enabled] => 
+                            [invoice_data] => Array
+                                (
+                                    [account_tax_ids] => 
+                                    [custom_fields] => 
+                                    [description] => 
+                                    [footer] => 
+                                    [issuer] => 
+                                    [metadata] => Array
+                                        (
+                                        )
+
+                                    [rendering_options] => 
+                                )
+
+                        )
+
+                    [livemode] => 1
+                    [locale] => auto
+                    [metadata] => Array
+                        (
+                            [order_id] => 4716
+                        )
+
+                    [mode] => payment
+                    [payment_intent] => pi_3P8T01H5sQ9h1aRd0UoCfhfx
+                    [payment_link] => 
+                    [payment_method_collection] => always
+                    [payment_method_configuration_details] => 
+                    [payment_method_options] => Array
+                        (
+                            [card] => Array
+                                (
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [payment_status] => paid
+                    [phone_number_collection] => Array
+                        (
+                            [enabled] => 
+                        )
+
+                    [recovered_from] => 
+                    [saved_payment_method_options] => 
+                    [setup_intent] => 
+                    [shipping_address_collection] => 
+                    [shipping_cost] => 
+                    [shipping_details] => 
+                    [shipping_options] => Array
+                        (
+                        )
+
+                    [status] => complete
+                    [submit_type] => 
+                    [subscription] => 
+                    [success_url] => https://zhm.57c.myftpupload.com/?wc-ajax=eh_spg_stripe_checkout_order&sessionid={CHECKOUT_SESSION_ID}&order_id=4716&_wpnonce=35e874b123
+                    [total_details] => Array
+                        (
+                            [amount_discount] => 0
+                            [amount_shipping] => 0
+                            [amount_tax] => 0
+                        )
+
+                    [ui_mode] => hosted
+                    [url] => 
+                )
+
+        )
+
+    [livemode] => 1
+    [pending_webhooks] => 1
+    [request] => Array
+        (
+            [id] => 
+            [idempotency_key] => 
+        )
+
+    [type] => checkout.session.completed
+)
+2024-04-22T19:58:12+00:00 DEBUG <------------------- WebToffee Stripe Payment ( Evento - Charge - Order #4716 ) ------------------->
+stdClass Object
+(
+    [id] => ch_3P8T01H5sQ9h1aRd03jkAux8
+    [amount] => 0.5
+    [amount_refunded] => 0
+    [currency] => USD
+    [order_amount] => 0.50
+    [order_currency] => USD
+    [captured] => Captured
+    [transaction_id] => txn_3P8T01H5sQ9h1aRd0uVkZts9
+    [mode] => Live
+    [metadata] => Array
+        (
+        )
+
+    [created] => 2024-04-22 19:58:02
+    [paid] => Paid
+    [receiptemail] => Receipt not send
+    [receiptnumber] => No Receipt Number
+    [source_type] => visa( debit )
+    [status] => succeeded
+    [origin_time] => 2024-04-22 19:58:08
+)
+2024-04-22T20:23:11+00:00 DEBUG <------------------- WebToffee Stripe Payment ( Evento - Charge - Order #4717 ) ------------------->
+stdClass Object
+(
+    [id] => ch_3P8TOCH5sQ9h1aRd1Sj2Zxao
+    [amount] => 2
+    [amount_refunded] => 0
+    [currency] => USD
+    [order_amount] => 2.00
+    [order_currency] => USD
+    [captured] => Captured
+    [transaction_id] => txn_3P8TOCH5sQ9h1aRd1m5swsmK
+    [mode] => Live
+    [metadata] => Array
+        (
+        )
+
+    [created] => 2024-04-22 20:23:00
+    [paid] => Paid
+    [receiptemail] => Receipt not send
+    [receiptnumber] => No Receipt Number
+    [source_type] => visa( debit )
+    [status] => succeeded
+    [origin_time] => 2024-04-22 20:23:07
+)

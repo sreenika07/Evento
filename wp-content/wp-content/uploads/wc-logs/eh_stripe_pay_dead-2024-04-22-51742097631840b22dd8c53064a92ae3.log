@@ -1,0 +1,11 @@
+2024-04-22T19:55:30+00:00 DEBUG <------------------- WebToffee Stripe Payment ( Evento - Charge - Order #4716 ) ------------------->
+stdClass Object
+(
+    [name] => Sreenika Reddy
+    [email] => darsisuji1999@gmail.com
+    [phone] => 
+    [type] => card_error
+    [card] => other
+    [token] => 
+    [message] => Admin declined the payment due to Card Restriction.
+)

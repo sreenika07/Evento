@@ -1,0 +1,349 @@
+body {
+    font-family: "Fira Sans";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.boxed-btn {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.hover-effect {
+    font-size: 15px;
+}
+
+.hover-effect2 {
+    text-transform: capitalize;
+	font-weight: 500;
+    font-size: 15px;
+}
+
+#close-btn {
+    font-size: 30px;
+}
+
+.popup-content h3 {
+    font-size: 34px;
+}
+
+.navbar-nav li a {
+    font-size: 15px!important;
+    font-weight: 500!important;
+	white-space: normal;
+}
+
+.search__area .search__inner form input {
+    font-size: 25px;
+}
+
+.search__area .search__inner form button {
+    line-height: 60px;
+    font-size: 25px;
+}
+
+.search__area .search__inner .search__close__btn {
+    font-size: 30px;
+    line-height: 58px;
+}
+
+.header-slider .inner-content {
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+
+.header-slider h1,
+.header-slider h2 {
+    font-family: "Fira Sans";
+}
+
+.header-single-slider h1 {
+    font-size: 50px;
+    line-height: 80px;
+	-webkit-transition: .3s;
+    transition: .3s;
+}
+
+.header-single-slider h3 {
+    font-family: "Fira Sans";
+    font-size: 25px;
+    font-weight: 400;
+	-webkit-transition: .3s;
+    transition: .3s;
+}
+
+.header-single-slider h3:first-child {
+    display: inline-block;
+	padding: 2px 12px;
+    font-size: 16px;
+	border-radius: 5px;
+}
+
+.header-single-slider h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+	-webkit-transition: .3s;
+    transition: .3s;
+}
+
+.wedding-person figcaption h4 {
+    font-size: 18px;
+}
+
+.wedding-person h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.about-social li a {
+    font-size: 10px;
+    line-height: 27px;
+}
+
+.timer li {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.timer li span {
+    font-size: 60px;
+    line-height: 0.2;
+}
+
+input[type="text"].dollar::-webkit-input-placeholder {
+    font-weight: 700;
+}
+
+.ln-img .news-date p {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.ln-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ln-content ul {
+    margin-bottom: 0;
+}
+
+.ln-content ul li {
+    font-size: 14px;
+}
+
+.sale {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.effect-21:focus~label,
+.has-content.effect-21~label {
+    font-size: 12px;
+}
+
+.footer-logo img {
+    width: 280px;
+    display: block;
+    margin: auto;
+}
+
+.footer-section .thanks {
+    font-family: 'Dancing Script', cursive;
+    font-size: 76px;
+    font-weight: 700;
+	line-height: 75px;
+}
+
+.contact-info .icon {
+    font-size: 50px;
+}
+
+.contact-info h4 {
+    font-size: 24px;
+}
+
+ul.footer-social,
+ul.footer-payment,
+.contact-info p {
+	margin-bottom: 0;
+}
+
+.footer-social li a {
+    font-size: 10px;
+}
+
+.footer-copyright {
+    font-size: 15px;
+}
+
+#breadcrumb-area h2 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#breadcrumb-area .breadcrumb-nav li {
+    font-size: 20px;
+	text-transform: capitalize;
+}
+
+#breadcrumb-area .breadcrumb-nav li:after {
+    font-size: 15px;
+}
+
+#breadcrumb-area .breadcrumb-nav li i {
+	color: #fff;
+	font-weight: 600;
+}
+
+.single-organiser ul li a {
+    font-size: 15px;
+}
+
+.organiser-content h4 {
+    font-size: 15px;
+    font-family: "Fira Sans";
+}
+
+.organiser-content p {
+    margin-bottom: 0;
+}
+
+.pagination li a {
+    font-size: 15px;
+}
+
+span.page-numbers.current {
+    font-weight: 700;
+}
+
+.blog-post .post-overlay {
+    font-size: 24px;
+}
+
+.blog-post .meta-info {
+    font-size: 12px;
+}
+
+.blog-post .meta-info li.post-date a {
+    font-weight: 700;
+}
+
+.blog-post .meta-info li a {
+    font-family: "Fira Sans";
+    font-weight: 700;
+}
+
+.blog-post .post-content h4 {
+    font-size: 18px;
+    font-weight: 700;	
+    padding: 0;
+}
+
+.blog-post .post-footer a {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.blog-post .post-footer a.share {
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.widget h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+	margin-bottom: 0;
+    font-family: "Fira Sans";
+}
+
+.widget_categories ul li a {
+    font-family: "Fira Sans";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.recent-post h6 {
+    font-weight: 700;
+}
+
+.recent-post p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+ul.recent-meta-info li {
+    font-size: 12px;
+}
+
+ul.recent-meta-info li a {
+    font-size: 12px;
+}
+
+.widget_calender .widget-title {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Fira Sans";
+}
+
+.weekdays li {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.days li {
+    font-size: 14px;
+}
+
+.blog-post.masonary-post .post-content h4 {
+    font-size: 15px;
+}
+
+.blog-post .post-content p {
+    font-size: 14px;
+	padding: 0;
+}
+
+.post-author h5 a {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+ul.blogpost-social li a {
+    font-size: 10px;
+    line-height: 27px;
+}
+
+#reply-title {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.post-new-comment p {
+    font-size: 14px;
+}
+
+#page-404 h3 {
+    font-size: 50px;
+    font-weight: 700;
+}
